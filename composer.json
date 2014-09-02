@@ -9,6 +9,10 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.3.*",
+        "zf-commons/zfc-user": "1.0.*",
+		  "zf-commons/zfc-admin": "0.1.*",
+		  "mwillbanks/zfc-twitter-bootstrap": "0.3.*",
+		  "zendframework/zend-developer-tools": "0.*"
     }
 }
