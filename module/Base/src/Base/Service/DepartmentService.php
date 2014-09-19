@@ -6,7 +6,7 @@ use Zend\Db\TableGateway\TableGateway;
 use Zend\Stdlib\Hydrator\ClassMethods;
 
 
-class DepartmentService implements CountryServiceInterface{
+class DepartmentService implements DepartmentServiceInterface{
 	protected $tableGateway;
 	public function __construct(TableGateway $tableGateway ){
 		$this->tableGateway = $tableGateway;

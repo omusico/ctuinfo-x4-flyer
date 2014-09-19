@@ -15,7 +15,12 @@ use Zend\View\Model\ViewModel;
 class IndexController extends AbstractActionController
 {
     public function indexAction()
-    {
+    {  
+    		$sm = $this->getServiceLocator();
+    		
+    		$config = $sm->get('Config');
+    		print_r($config);
+    		
         return new ViewModel();
     }
 }

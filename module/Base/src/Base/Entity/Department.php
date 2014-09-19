@@ -1,7 +1,8 @@
 <?php
 namespace Base\Entity;
 
-class Department{
+
+class Department implements DepartmentInterface{
 	public $id;
 	public $name;
 	public $code;

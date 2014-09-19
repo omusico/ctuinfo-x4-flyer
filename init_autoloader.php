@@ -26,6 +26,7 @@ if (class_exists('Zend\Loader\AutoloaderFactory')) {
 }
 
 $zf2Path = false;
+$zf2Path = 'vendor/zendframework/zendframework/library/Zend';
 
 if (is_dir('vendor/ZF2/library')) {
     $zf2Path = 'vendor/ZF2/library';
