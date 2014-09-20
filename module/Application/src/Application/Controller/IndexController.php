@@ -18,9 +18,6 @@ class IndexController extends AbstractActionController
     {  
     		$sm = $this->getServiceLocator();
     		
-    		$config = $sm->get('Config');
-    		print_r($config);
-    		
         return new ViewModel();
     }
 }

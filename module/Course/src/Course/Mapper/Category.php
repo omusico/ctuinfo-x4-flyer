@@ -1,9 +1,8 @@
 <?php
-
 namespace Course\Mapper;
 use ZfcBase\Mapper\AbstractDbMapper;
 
-class Course extends AbstractDbMapper implements CourseInterface
+class Category extends AbstractDbMapper implements CategoryInterface
 {
-	
+
 }
